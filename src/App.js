@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap';
 import React, { useState, createContext } from 'react';
+import ReactSwitch from 'react-switch';
 
 export const ThemeContext = createContext(null);
 
@@ -26,6 +27,10 @@ function App() {
           >
             Ucz się React'a
           </a>
+          <br />
+          <div className="switch">
+            <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} /> 
+          </div>
         </header>
       </div>
     </ThemeContext.Provider>
