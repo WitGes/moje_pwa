@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+#light{
+  background-color: #fbf8fc;
+  color: #282c34;
+}
+
+#dark{
+  background-color: #282c34;
+  color: #fbf8fc;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+
