@@ -2,6 +2,14 @@
 
 [Tu film, z którego skorzystałem](https://youtu.be/VzF2iTTc0MA?si=ptbpTu8a2_I_Ky2M)
 
+## Dodałem ciemny schemat ##
+
+Szczegóły w plikach
+
+## Dodałem repo ##
+
+`npm install react-switch` - dodanie przełącznika dla schematów kolorów
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
