@@ -29,7 +29,10 @@ function App() {
           </a>
           <br />
           <div className="switch">
-            <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} /> 
+            <label htmlFor="temat">
+              {theme === "dark" ? "Ciemny schemat " : "Jasny schemat "}
+              <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} id="temat" /> 
+            </label>
           </div>
         </header>
       </div>
