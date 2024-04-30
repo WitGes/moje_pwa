@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+*.terabox.uploading.cfg
 
 # testing
 /coverage
